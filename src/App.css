@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+
+#topiclist {
+  background-color: rgb(168, 216, 189);
+  border: #09d3ac;
+  border-width: 5px;
+  color: rgb(62, 24, 100);
+  margin: 30px;
+  padding: 10px
+}
+
+#navigation {
+  background-color: seagreen;
+  margin: 50px;
+  padding: 10px;
+}
+
+#topicrows {
+  background-color: silver;
+  border: skyblue;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
