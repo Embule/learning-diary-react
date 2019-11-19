@@ -1,3 +1,10 @@
+To use the app get the rest api server from https://github.com/Embule/learningdiary
+
+and get the server running on http://localhost:3000 with npm start.
+
+You can run this project in http://localhost:3030 with npm start.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
