@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/ink-1238042_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  background-position: center;
 }
 
 code {
@@ -12,7 +17,3 @@ code {
     monospace;
 }
 
-#topiclist {
-  border: #09d3ac;
-  border-width: 10px;
-}

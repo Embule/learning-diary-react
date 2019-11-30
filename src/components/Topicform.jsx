@@ -23,22 +23,17 @@ export default class Topicform extends Component {
 
   render() {
     return (
-      <div className="topicform">
+      <div className="topicform" id="topicform">
+        <h3>Add topic</h3>
         <form>
-          <input type="text" placeholder='Title'
-            value={this.state.etunimi} onChange={this.titleArvoMuuttunut} /><br />
-          <input type="text" placeholder='Description'
-            value={this.state.sukunimi} onChange={this.descriptionArvoMuuttunut} /><br />
-          <input type="text" placeholder='Time to master subject'
-            value={this.state.etunimi} onChange={this.timeToMasterNimenArvoMuuttunut} /><br />
-          <input type="text" placeholder='Time spent on subject'
-            value={this.state.sukunimi} onChange={this.timeSpentArvoMuuttunut} /><br />
-          <input type="text" placeholder='Source'
-            value={this.state.etunimi} onChange={this.sourceArvoMuuttunut} /><br />
-          <input type="text" placeholder='Start Date'
-            value={this.state.sukunimi} onChange={this.startDateArvoMuuttunut} /><br />
+          Title: <input type="text" value={this.state.etunimi} onChange={this.titleArvoMuuttunut} /><br />
+          Description: <input type="text" value={this.state.sukunimi} onChange={this.descriptionArvoMuuttunut} /><br />
+          Time Left to Master the Topic: <input type="text" value={this.state.etunimi} onChange={this.timeToMasterNimenArvoMuuttunut} /><br />
+          Time Spent on the Topic: <input type="text" value={this.state.sukunimi} onChange={this.timeSpentArvoMuuttunut} /><br />
+          Source of Learning: <input type="text" placeholder='www' value={this.state.etunimi} onChange={this.sourceArvoMuuttunut} /><br />
+          Start Date<input type="text" placeholder='YYYY-MM-DD' value={this.state.sukunimi} onChange={this.startDateArvoMuuttunut} /><br />
           <p>Done?</p><input type="checkbox" value={this.state.progress} onClick={this.toggleCheckbox} /><br />
-          <input type="submit" defaultValue="Add Topic" onClick={this.nappiaPainettu} />
+          <input type="submit" class="button" defaultValue="Add Topic" onClick={this.nappiaPainettu} />
         </form>
 
       </div>

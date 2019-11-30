@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Topic from './Topic';
-import {fetchAllTopics, deleteTopicWithId, postTopic} from '../service/api.client';
+import {fetchAllTopics, deleteTopicWithId, postTopic} from '../service/apiclient';
 import Topicform from './Topicform';
 
 export default class Topiclist extends Component {
@@ -45,7 +45,7 @@ export default class Topiclist extends Component {
 
     return (
       <div className="topiclist" id="topiclist">
-        <h2>Topiclist</h2>
+        <h2>Topics</h2>
         <p id="topicrows" lisaaTopic={this.tiedotPaivita}>{topicrows}
         </p>
       </div>

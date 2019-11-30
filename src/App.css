@@ -21,13 +21,14 @@
   color: #09d3ac;
 }
 
-#topiclist {
+#topiclist, #homepage, #topicform {
   background-color: rgb(168, 216, 189);
-  border: #09d3ac;
   border-width: 5px;
-  color: rgb(62, 24, 100);
-  margin: 30px;
-  padding: 10px
+  color: rgb(122, 36, 47);
+  margin: 70px;
+  padding: 10px;
+  background: rgba(204, 204, 204, 0.6);
+  border-radius: 5px;
 }
 
 #navigation {
@@ -37,11 +38,27 @@
 }
 
 #topicrows {
-  background-color: silver;
-  border: skyblue;
-  border-width: 10px;
+  background: rgb(233, 231, 231);
+  border: rgb(0, 0, 0);
+  border-width: 2px;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 20px;
   margin: 20px;
+}
+
+.button {
+  background-color: rgb(88, 9, 3); /* Green */
+  border: none;
+  color: rgb(223, 217, 217);
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: rgb(226, 220, 217); /* Green */
+  color:rgb(88, 9, 3);
 }
